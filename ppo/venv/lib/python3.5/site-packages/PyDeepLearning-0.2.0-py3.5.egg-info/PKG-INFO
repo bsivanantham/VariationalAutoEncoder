@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: PyDeepLearning
+Version: 0.2.0
+Summary: Deep learning neural network implementation with backprop using numpy.
+Home-page: https://github.com/frugs/PyDeepLearning
+Author: hugo
+Author-email: frugs@github.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

@@ -14,8 +14,8 @@ import numpy as np
 import theano
 import theano.tensor as T
 from theano.tensor.shared_randomstreams import RandomStreams
+from common import load_mnist
 
-from DeepLearning.common import load_mnist
 
 # functions used for initializing weights and biases
 def init_weight(*shape):

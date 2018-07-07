@@ -4,8 +4,9 @@ Adventures in Deep Learning
 Recurrent Neural Network for ATIS Slot Filling task.
 This is an implementation of the model discussed here http://www.deeplearning.net/tutorial/rnnslu.html
 
-Goker Erdogan
-https://github.com/gokererdogan
+07 July 2018
+Balavivek Sivanantham
+https://github.com/bsivanantham
 """
 import cPickle as pkl
 

@@ -3,8 +3,9 @@ Adventures in Deep Learning
 
 Multilayer Perceptron for MNIST Handwritten Digit Recognition
 
-Goker Erdogan
-https://github.com/gokererdogan
+07 July 2018
+Balavivek Sivanantham
+https://github.com/bsivanantham
 """
 import numpy as np
 from keras.models import Sequential

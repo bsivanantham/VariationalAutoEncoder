@@ -3,9 +3,9 @@ A Lasagne implementation of the variational autoencoder proposed in
     Kingma, D. P., & Welling, M. (2013). Auto-Encoding Variational Bayes.
     arXiv:1312.6114
 
-28 May 2016
-goker erdogan
-https://github.com/gokererdogan
+07 July 2018
+Balavivek Sivanantham
+https://github.com/bsivanantham
 """
 import numpy as np
 import theano

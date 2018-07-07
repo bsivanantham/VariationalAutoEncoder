@@ -5,8 +5,9 @@ Convolutional Neural Network for MNIST dataset.
 The architecture of the network is taken from
 https://github.com/fchollet/keras/blob/master/examples/mnist_cnn.py
 
-Goker Erdogan
-https://github.com/gokererdogan
+07 July 2018
+Balavivek Sivanantham
+https://github.com/bsivanantham
 """
 
 import numpy as np

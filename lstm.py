@@ -3,8 +3,9 @@ Adventures in Deep Learning
 
 A simple example of long-short term memory model.
 
-Goker Erdogan
-https://github.com/gokererdogan
+07 July 2018
+Balavivek Sivanantham
+https://github.com/bsivanantham
 """
 import numpy as np
 import theano

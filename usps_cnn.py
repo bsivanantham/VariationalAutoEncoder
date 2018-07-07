@@ -7,8 +7,9 @@ in LeCun et al. (1990) Handwrittten Digit Recognition
 with a Back-propogation Network with some minor
 differences.
 
-Goker Erdogan
-https://github.com/gokererdogan
+07 July 2018
+Balavivek Sivanantham
+https://github.com/bsivanantham
 """
 
 import numpy as np

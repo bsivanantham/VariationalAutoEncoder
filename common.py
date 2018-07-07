@@ -1,9 +1,9 @@
 """
 Common functions for loading datasets etc.
 
-28 May 2016
-goker erdogan
-https://github.com/gokererdogan
+07 July 2018
+Balavivek Sivanantham
+https://github.com/bsivanantham
 """
 
 import gzip

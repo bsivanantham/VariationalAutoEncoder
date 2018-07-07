@@ -3,9 +3,9 @@ A Theano implementation of the variational autoencoder proposed in
     Kingma, D. P., & Welling, M. (2013). Auto-Encoding Variational Bayes.
     arXiv:1312.6114
 
-28 May 2016
-goker erdogan
-https://github.com/gokererdogan
+07 July 2018
+Balavivek Sivanantham
+https://github.com/bsivanantham
 """
 import _pickle as pkl
 import gzip
@@ -110,7 +110,7 @@ if __name__ == "__main__":
     # number of training epochs, i.e., passes over training set.
     # there are 50.000 samples in training set. 200 epochs means training over 10.000.000 samples. In the paper, they
     # keep training for much longer (around 100.000.000)
-    epoch_count = 500
+    epoch_count = 10
 
     # report log_likelihood bound on training after this many training samples
     report_interval = 20000
@@ -201,13 +201,13 @@ if __name__ == "__main__":
                 xp = generate_fn([np.asarray([z1, z2], dtype=np.float32)])
                 img[(i*28):((i+1)*28), (j*28):((j+1)*28)] = xp.reshape((28, 28))
 
-        """
+
         import matplotlib.pyplot as plt
         plt.style.use('classic')
         plt.imshow(img, cmap='gray')
-        """
+
 
         from scipy import misc
-        misc.imsave('Fig4b.png', img)
+        misc.imsave('Fig3b.png', img)
 
 

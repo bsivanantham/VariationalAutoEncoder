@@ -40,7 +40,7 @@ This Git is intended as a playground for experimenting with various neural netwo
 * usps_cnn: A simple convolutional neural network for USPS dataset implemented with keras
 * variational_autoencoder: Two implementations (one in pure Theano, one in lasagne) of the model proposed in 
 
-*If cPickle is a issue with your system , change it to _pickle*
+*If cPickle import throughs error, change it to _pickle*
 
 ## Source
 [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114)
